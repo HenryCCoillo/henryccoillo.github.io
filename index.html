@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Henry Ccoillo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li><a href="#" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+            <!-- <div class="themeSwitch"><i class="fa fa-moon-o" aria-hidden="true"></i></div> -->
+            <div class="themeSwitch"></div>
+        </div>
+        <div class="main">
+            <div class="topbar">
+                <a href="#" class="logo">Portafolio</a>
+                <div class="toggle">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+            </div>
+
+            <section class="banner" id="banner">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="images/user.jpg" alt="">
+                    </div>
+                    <h3>Henry Ccoillo</h3>
+                    <p>I'm a Back-End Web Developer</p>
+                    <!-- <a href="cv.html" class="btn">Download</a> -->
+                    <a href="henryCV.pdf" class="btn">Download CV</a>
+                    <ul class="socialMedia">
+                        <li><a href="https://github.com/henryccoillo" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                        <li><a href="mailto:henryccoillo11@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/henryccoillo" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- About -->
+            <section class="about adjust" id="about">
+                <div class="title">
+                    <h2>About Me</h2>
+                </div>
+                <div class="content">
+                    <div class="textBox">
+                        <p>
+                            Soy un desarrollador backend de aplicaciones web 
+                            escalables y eficientes utilizando tecnologías de Python y PHP. Mi experiencia incluye la creación de 
+                            sistemas y aplicaciones desde cero, el mantenimiento de aplicaciones existentes y la integración de 
+                            diferentes sistemas y herramientas para ofrecer soluciones personalizadas a los clientes. <br>Soy un 
+                            apasionado de la programación y siempre estoy en busca de nuevas tecnologías y 
+                            herramientas para mejorar mis habilidades.
+                        </p>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/bg1.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects -->
+            <section class="project adjust" id="project">
+
+                <div class="title">
+                    <h2>Project</h2>
+                    <p>Mis proyectos consiste en crear soluciones digitales efectivas y eficientes para las necesidades de los usuarios. Utilizando lenguajes de programación, herramientas y tecnologías de última generación, busco diseñar y desarrollar aplicaciones web intuitivas y atractivas que brinden una excelente experiencia al usuario.</p>
+                </div>
+
+                <div class="content_a">
+                    <div class="serviceBox">
+                        <div class="box1">
+                            <div class="br1">
+                                <h1>POKE API Frontend</h1>
+                                <p>El proyecto en frontend basado en la Poke API, incluye un diseño atractivo para la página de Sign in y Sign up de usuarios. Además de permitir la visualización detallada de información sobre diferentes pokémon,como sus habilidades, estadísticas, y evoluciones.</p>
+                            </div>
+                            <div class="br2">
+                                <div>
+                                    <a href="https://github.com/HenryCCoillo/PokeApi-Frontend" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                </div>
+                                <ul class="list_tec">
+                                    <li><img src="images/html-5-svgrepo-com.svg" alt=""></li>
+                                    <li><img src="images/css-3-svgrepo-com.svg" alt=""></li>
+                                    <li><img src="images/javascript-svgrepo-com.svg" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="box2">
+                            <img src="images/PokeApiFrontend.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="content_a">
+                    <div class="serviceBox">
+                        <div class="box1">
+                            <div class="br1">
+                                <h1>POKE API Backend</h1>
+                                <p>El proyecto Poke API utilizando Django como fuente de datos en el backend. Esta implementado la autenticación de JWT para la seguridad del proyecto y agregué endpoints para listar tanto los Pokémon como sus habilidades correspondientes. Además, documenté el proyecto utilizando Swagger para una mejor comprensión y facilidad de uso.</p>
+                            </div>
+                            <div class="br2 flex-inver">
+                                <div>
+                                    <a href="https://github.com/HenryCCoillo/PokeApi" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                </div>
+                                <ul class="list_tec">
+                                    <li><img src="images/django-icon-svgrepo-com.svg" alt=""></li>
+                                    <li><img src="images/swagger-svgrepo-com.svg" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="box2 inver">
+                            <img src="images/PokeApiBackend.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content_a">
+                    <div class="serviceBox">
+                        <div class="box1">
+                            <div class="br1">
+                                <h1>Sistema de Pago y Servicio API Frontend</h1>
+                                <p>En el proyecto que realicé, diseñé e implementé la interfaz de usuario en el frontend de un sistema de pago y servicios, incluyendo una página de inicio de sesión y una lista de pagos y servicios solicitados para cada usuario</p>
+                            </div>
+                            <div class="br2">
+                                <div>
+                                    <a href="https://github.com/HenryCCoillo/api-fronted" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                </div>
+                                <ul class="list_tec">
+                                    <li><img src="images/html-5-svgrepo-com.svg" alt=""></li>
+                                    <li><img src="images/css-3-svgrepo-com.svg" alt=""></li>
+                                    <li><img src="images/javascript-svgrepo-com.svg" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="box2">
+                            <img src="images/SistemaPagoyServicioFrontend.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="content_a">
+                    <div class="serviceBox">
+                        <div class="box1">
+                            <div class="br1">
+                                <h1>Sistema de Pago y Servicio API Backend</h1>
+                                <p>El proyecto sistema de pago y servicios en backend utilizando el framework Django, y añadí autenticación JWT y un sistema de pago con expiración. Además, agregué Swagger para documentar la API del proyecto</p>
+                            </div>
+                            <div class="br2 flex-inver">
+                                <div>
+                                    <a href="https://github.com/HenryCCoillo/django-api" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                </div>
+                                <ul class="list_tec">
+                                    <li><img src="images/django-icon-svgrepo-com.svg" alt=""></li>
+                                    <li><img src="images/swagger-svgrepo-com.svg" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="box2 inver">
+                            <img src="images/SistemaPagoyServicioBackend.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+
+
+            <!-- Contant -->
+            <section class="contact adjust" id="contact">
+                <div class="title">
+                    <h2>Contact</h2>
+                    <p>Si necesitas servicios de desarrollo web, por favor no dudes en contactarme. Estoy disponible y dispuesto a colaborar en cualquier proyecto relacionado con el desarrollo web.</p>
+                </div>
+                <div class="contactForm">
+                    <div class="row">
+                        <input type="text" name="" id="" placeholder="First Name">
+                        <input type="text" name="" id="" placeholder="Last Name">
+                    </div>
+                    <div class="row">
+                        <input type="text" name="" id="" placeholder="Email Address">
+                        <input type="text" name="" id="" placeholder="Mobile No.">
+                    </div>
+                    <div class="row2">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
+                    <div class="row2">
+                        <input type="submit" name="" id="" value="Send">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Copyright Text -->
+            <div class="copyright">
+                <p>Copyright @ 2023 Henry Ccoillo</p>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        let toggle = document.querySelector('.toggle');
+        let topbar = document.querySelector('.topbar');
+        let navigation = document.querySelector('.navigation');
+        let main = document.querySelector('.main');
+        let themeSwitch = document.querySelector('.themeSwitch');
+        let body = document.querySelector('body')
+        toggle.onclick = function(){
+            toggle.classList.toggle('active');
+            topbar.classList.toggle('active');
+            navigation.classList.toggle('active');
+            main.classList.toggle('active');
+        }
+
+
+        themeSwitch.onclick = function(){
+            body.classList.toggle('dark');
+        }
+
+        function toggleMenu(){
+            let navigation = document.querySelector('.navigation');
+            let main = document.querySelector('.main');
+            navigation.classList.remove('active');
+            main.classList.remove('active');
+        }
+    </script>
+
+</body>
+</html>
+
